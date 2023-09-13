@@ -1,0 +1,47 @@
+# git config --global core.excludesfile '~/.gitignore_global'
+
+
+# Dependencies
+/node_modules
+/public/assets
+/.pnp
+.pnp.js
+/storage/*
+!/storage/.keep
+
+# testing
+/coverage
+
+# production
+/build
+
+# Log files and temp files.
+/log/*
+/tmp/*
+!/log/.keep
+!/tmp/.keep
+/yarn-error.log
+.byebug_history
+
+# Project files
+/.bundle
+/.idea
+*.sublime-project
+*.sublime-workspace
+
+# Backup files
+*.*~
+*.swp
+
+# Dot-files
+.DS_Store
+.powenv
+.powrc
+.rbenv-vars
+.rspec-local
+.ruby-gemset
+.rbenv-gemsets
+.rvmrc
+.zeus.sock
+.env.local
+.tools-versions
