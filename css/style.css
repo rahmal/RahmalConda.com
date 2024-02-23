@@ -54,28 +54,29 @@ a {
     z-index:100
 }
 #nav-icon{
-    background:#e74c3c;
+    background: cornflowerblue; #e74c3c;
     width:24px;
     padding:13px;
     float:left;
     cursor:pointer
 }
 #nav-logo{
+    font-family:'FontAwesome';
     float:left;
     line-height:24px;
     font-size:18px;
     font-weight:700;
     color:white;
-    background:#1F232B;
+    background: #1F232B;
     padding:13px 26px;
     cursor:pointer
 }
 #nav-list{
-    background:#CC342D;
+    background:cornflowerblue; #CC342D;
     display:none
 }
 .nav-item{
-    border-bottom:1px solid rgba(0,0,0,0.15);
+    border-bottom:1px solid #rgba(0,0,0,0.15);
     padding:10px;
     cursor:pointer;
     -webkit-transition:linear 0.2s
@@ -94,7 +95,7 @@ a {
     font-weight:500;
 }
 .nav-item:hover{
-    background:#A83030
+    background: steelblue; #A83030
 }
 #cover-action:hover{
     background:whitesmoke
@@ -123,6 +124,7 @@ a {
     color:white
 }
 #cover-hero{
+    font-family:'FontAwesome';
     font-size:48px;
     font-weight:700;
     text-transform:uppercase;
@@ -130,8 +132,8 @@ a {
 }
 #cover-title{
     font-size:24px;
-    font-weight:100;
-    margin-bottom:25px;
+    font-weight:400;
+    /* margin-bottom:25px; */
     color:rgba(255,255,255,0.8)
 }
 #cover-action{

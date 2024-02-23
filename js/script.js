@@ -20,33 +20,38 @@ $(document).ready(function(){
 			$(this).attr('data-toggle', "0");
 		}
 	});
-	
+
 	$('#viewport').click(function(){
 		$('#nav-list').hide('slide', {'direction': 'left'}, 300);
 		$('#nav-icon').attr('data-toggle', "0");
 	});
-	
+
 	$('.nav-item').click(function(){
 		if ($(this).attr('id') == "nav-item-about") {
+      $('#nav-logo').text('About Me');
 			$('html, body').animate({'scrollTop': '540px'});
-		} else if ($(this).attr('id') == "nav-item-program") {
+		} else if ($(this).attr('id') == "nav-item-resume") {
+      $('#nav-logo').text('Resume');
 			$('html, body').animate({'scrollTop': '1352px'});
-		} else if ($(this).attr('id') == "nav-item-team") {
+		} else if ($(this).attr('id') == "nav-item-projects") {
+      $('#nav-logo').text('Projects');
 			$('html, body').animate({'scrollTop': '3250px'});
-		} else if ($(this).attr('id') == "nav-item-mentor") {
+		} else if ($(this).attr('id') == "nav-item-mentors") {
+      $('#nav-logo').text('References');
 			$('html, body').animate({'scrollTop': '4190px'});
 		} else if ($(this).attr('id') == "nav-item-social") {
+      $('#nav-logo').text('Follow Me');
 			$('html, body').animate({'scrollTop': '4880px'});
-
-		} 
+		}
 		$('#nav-list').hide('slide', {'direction': 'left'}, 300);
 		$('#nav-icon').attr('data-toggle', "0");
 	});
-	
+
 	$('#nav-logo').click(function(){
 		$('html, body').animate({'scrollTop': '0px'});
 		$('#nav-list').hide('slide', {'direction': 'left'}, 300);
 		$('#nav-icon').attr('data-toggle', "0");
+    $('#nav-logo').text('Rahmal Conda');
 	});
 
   $('.team-item-overlay').mouseover(function(e){
