@@ -205,13 +205,20 @@ a {
     margin-bottom:5px;
     padding-bottom:5px
 }
-#program-sublink{
 
+#program-sublabel {
+  text-align:center;
+  font-size:14px;
+  margin-top:5px;
+  margin-bottom:5px;
+}
+
+#program-sublink{
     color:#e74c3c;
     text-align:center;
     font-family: Helvetica;
     font-style: italic;
-    font-size:15px;
+    font-size:14px;
     margin-top:5px;
     margin-bottom:30px;
     padding-bottom:30px
@@ -220,7 +227,13 @@ a {
 #program-sublink:hover{
   text-decoration: underline;
 }
-
+#program-sublink .bar{
+  color: white;
+  font-weight: bold;
+  font-style: normal;
+  padding-left: 5px;
+  padding-right: 3px;
+}
 .program-item-info{
     float:left;
     width:480px
